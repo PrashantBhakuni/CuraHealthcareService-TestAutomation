@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-AllTestCases" class="navigator-link">
+              <span class="suite-name border-failed">AllTestCases</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-AllTestCases" class="navigator-link ">
+                    <span>C:\Users\Prashant\eclipse-workspace\CuraHealthcareService\TestSuites\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-AllTestCases" class="navigator-link ">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-AllTestCases" class="navigator-link ">
+                    <span>1 group</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-AllTestCases" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-AllTestCases" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-AllTestCases" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-AllTestCases" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">11 methods, 1 failed,   10 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-AllTestCases" class="hide-methods failed suite-AllTestCases"> (hide)</a> <!-- hide-methods failed suite-AllTestCases -->
+                      <a href="#" panel-name="suite-AllTestCases" class="show-methods failed suite-AllTestCases"> (show)</a> <!-- show-methods failed suite-AllTestCases -->
+                    </span>
+                    <div class="method-list-content failed suite-AllTestCases">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AllTestCases" title="prashantbhakuni.Test.AppointmentBookingTestCases" class="method navigator-link" hash-for-method="bookingSix">bookingSix</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-AllTestCases -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-AllTestCases" class="hide-methods passed suite-AllTestCases"> (hide)</a> <!-- hide-methods passed suite-AllTestCases -->
+                      <a href="#" panel-name="suite-AllTestCases" class="show-methods passed suite-AllTestCases"> (show)</a> <!-- show-methods passed suite-AllTestCases -->
+                    </span>
+                    <div class="method-list-content passed suite-AllTestCases">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AllTestCases" title="prashantbhakuni.Test.AppointmentBookingTestCases" class="method navigator-link" hash-for-method="bookingFive">bookingFive</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AllTestCases" title="prashantbhakuni.Test.AppointmentBookingTestCases" class="method navigator-link" hash-for-method="bookingFour">bookingFour</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AllTestCases" title="prashantbhakuni.Test.AppointmentBookingTestCases" class="method navigator-link" hash-for-method="bookingOne">bookingOne</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AllTestCases" title="prashantbhakuni.Test.AppointmentBookingTestCases" class="method navigator-link" hash-for-method="bookingThree">bookingThree</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AllTestCases" title="prashantbhakuni.Test.AppointmentBookingTestCases" class="method navigator-link" hash-for-method="bookingTwo">bookingTwo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AllTestCases" title="prashantbhakuni.Test.LoginTestCases" class="method navigator-link" hash-for-method="loginFive">loginFive</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AllTestCases" title="prashantbhakuni.Test.LoginTestCases" class="method navigator-link" hash-for-method="loginFour">loginFour</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AllTestCases" title="prashantbhakuni.Test.LoginTestCases" class="method navigator-link" hash-for-method="loginOne">loginOne</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AllTestCases" title="prashantbhakuni.Test.LoginTestCases" class="method navigator-link" hash-for-method="loginThree">loginThree</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AllTestCases" title="prashantbhakuni.Test.LoginTestCases" class="method navigator-link" hash-for-method="loginTwo">loginTwo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-AllTestCases -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-AllTestCases" class="panel AllTestCases">
+          <div class="suite-AllTestCases-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">prashantbhakuni.Test.AppointmentBookingTestCases</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="bookingSix">
+                  </a> <!-- bookingSix -->
+                  <span class="method-name">bookingSix</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [Please select a valid date] but found [Appointment Confirmation]
+	at prashantbhakuni.Test.AppointmentBookingTestCases.bookingSix(AppointmentBookingTestCases.java:199)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+... Removed 23 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AllTestCases-class-failed -->
+          <div class="suite-AllTestCases-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">prashantbhakuni.Test.LoginTestCases</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginFive">
+                  </a> <!-- loginFive -->
+                  <span class="method-name">loginFive</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginFour">
+                  </a> <!-- loginFour -->
+                  <span class="method-name">loginFour</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginOne">
+                  </a> <!-- loginOne -->
+                  <span class="method-name">loginOne</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginThree">
+                  </a> <!-- loginThree -->
+                  <span class="method-name">loginThree</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTwo">
+                  </a> <!-- loginTwo -->
+                  <span class="method-name">loginTwo</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AllTestCases-class-passed -->
+          <div class="suite-AllTestCases-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">prashantbhakuni.Test.AppointmentBookingTestCases</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="bookingFive">
+                  </a> <!-- bookingFive -->
+                  <span class="method-name">bookingFive</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="bookingFour">
+                  </a> <!-- bookingFour -->
+                  <span class="method-name">bookingFour</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="bookingOne">
+                  </a> <!-- bookingOne -->
+                  <span class="method-name">bookingOne</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="bookingThree">
+                  </a> <!-- bookingThree -->
+                  <span class="method-name">bookingThree</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="bookingTwo">
+                  </a> <!-- bookingTwo -->
+                  <span class="method-name">bookingTwo</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AllTestCases-class-passed -->
+        </div> <!-- panel AllTestCases -->
+        <div panel-name="test-xml-AllTestCases" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Prashant\eclipse-workspace\CuraHealthcareService\TestSuites\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite parallel=&quot;tests&quot; name=&quot;AllTestCases&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;prashantbhakuni.TestComponents.Listeners&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; parallel=&quot;tests&quot; name=&quot;Login&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;prashantbhakuni.Test.LoginTestCases&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Login --&gt;
+  &lt;test thread-count=&quot;5&quot; parallel=&quot;tests&quot; name=&quot;Booking&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;prashantbhakuni.Test.AppointmentBookingTestCases&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Booking --&gt;
+&lt;/suite&gt; &lt;!-- AllTestCases --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-AllTestCases" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for AllTestCases</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Login (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Booking (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-AllTestCases" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for AllTestCases</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">Error</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">bookingSix</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-AllTestCases" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for AllTestCases</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_AllTestCases');
+function tableData_AllTestCases() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(11);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'bookingFive')
+data.setCell(0, 2, 'prashantbhakuni.Test.AppointmentBookingTestCases')
+data.setCell(0, 3, 3768);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'bookingFour')
+data.setCell(1, 2, 'prashantbhakuni.Test.AppointmentBookingTestCases')
+data.setCell(1, 3, 2817);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'bookingTwo')
+data.setCell(2, 2, 'prashantbhakuni.Test.AppointmentBookingTestCases')
+data.setCell(2, 3, 1948);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'bookingOne')
+data.setCell(3, 2, 'prashantbhakuni.Test.AppointmentBookingTestCases')
+data.setCell(3, 3, 1760);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'bookingThree')
+data.setCell(4, 2, 'prashantbhakuni.Test.AppointmentBookingTestCases')
+data.setCell(4, 3, 1728);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'bookingSix')
+data.setCell(5, 2, 'prashantbhakuni.Test.AppointmentBookingTestCases')
+data.setCell(5, 3, 1667);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'loginThree')
+data.setCell(6, 2, 'prashantbhakuni.Test.LoginTestCases')
+data.setCell(6, 3, 1288);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'loginTwo')
+data.setCell(7, 2, 'prashantbhakuni.Test.LoginTestCases')
+data.setCell(7, 3, 1238);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'loginFive')
+data.setCell(8, 2, 'prashantbhakuni.Test.LoginTestCases')
+data.setCell(8, 3, 1224);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'loginOne')
+data.setCell(9, 2, 'prashantbhakuni.Test.LoginTestCases')
+data.setCell(9, 3, 1168);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'loginFour')
+data.setCell(10, 2, 'prashantbhakuni.Test.LoginTestCases')
+data.setCell(10, 3, 1075);
+window.suiteTableData['AllTestCases']= { tableData: data, tableDiv: 'times-div-AllTestCases'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 36 seconds</span>
+              <div id="times-div-AllTestCases">
+              </div> <!-- times-div-AllTestCases -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-AllTestCases" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for AllTestCases</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-AllTestCases" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-AllTestCases" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">prashantbhakuni.Test.LoginTestCases</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launchWebsite</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">prashantbhakuni.Test.AppointmentBookingTestCases</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launchWebsite</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">prashantbhakuni.Test.LoginTestCases</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">loginFive</span>
+                <span class="method-start">4127 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">prashantbhakuni.Test.AppointmentBookingTestCases</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">bookingFive</span>
+                <span class="method-start">4140 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">prashantbhakuni.Test.LoginTestCases</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">5357 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchWebsite</span>
+                <span class="method-start">5443 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">prashantbhakuni.Test.AppointmentBookingTestCases</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">7910 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchWebsite</span>
+                <span class="method-start">7982 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">prashantbhakuni.Test.LoginTestCases</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">loginFour</span>
+                <span class="method-start">9079 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">10155 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchWebsite</span>
+                <span class="method-start">10197 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">prashantbhakuni.Test.AppointmentBookingTestCases</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">bookingFour</span>
+                <span class="method-start">11627 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">prashantbhakuni.Test.LoginTestCases</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">loginOne</span>
+                <span class="method-start">14417 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">prashantbhakuni.Test.AppointmentBookingTestCases</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">14445 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchWebsite</span>
+                <span class="method-start">14522 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">prashantbhakuni.Test.LoginTestCases</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">15586 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchWebsite</span>
+                <span class="method-start">15655 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">prashantbhakuni.Test.AppointmentBookingTestCases</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">bookingOne</span>
+                <span class="method-start">18180 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">prashantbhakuni.Test.LoginTestCases</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">loginThree</span>
+                <span class="method-start">19283 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">prashantbhakuni.Test.AppointmentBookingTestCases</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">19941 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchWebsite</span>
+                <span class="method-start">20015 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">prashantbhakuni.Test.LoginTestCases</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">20572 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchWebsite</span>
+                <span class="method-start">20655 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">prashantbhakuni.Test.AppointmentBookingTestCases</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">bookingSix</span>
+                <span class="method-start">23585 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">prashantbhakuni.Test.LoginTestCases</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">loginTwo</span>
+                <span class="method-start">24413 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">prashantbhakuni.Test.AppointmentBookingTestCases</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">25382 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchWebsite</span>
+                <span class="method-start">25456 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">prashantbhakuni.Test.LoginTestCases</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">25652 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">prashantbhakuni.Test.AppointmentBookingTestCases</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">bookingThree</span>
+                <span class="method-start">29136 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">30864 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchWebsite</span>
+                <span class="method-start">30939 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">bookingTwo</span>
+                <span class="method-start">34510 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">36459 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

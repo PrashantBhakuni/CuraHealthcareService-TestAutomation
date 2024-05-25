@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="AllTestCases">
+	<listeners>
+		<listener class-name="prashantbhakuni.TestComponents.Listeners" />
+	</listeners>
+
+	<test thread-count="5" name="Login">
+		<classes>
+			<class name="prashantbhakuni.Test.LoginTestCases" />
+		</classes>
+	</test> <!--Test -->
+	<test thread-count="5" name="Booking">
+		<classes>
+			<class name="prashantbhakuni.Test.AppointmentBookingTestCases" />
+		</classes>
+	</test>
+</suite> <!--
+AllTestCases -->
