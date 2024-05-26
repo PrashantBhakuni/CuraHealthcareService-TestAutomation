@@ -1,6 +1,47 @@
 # Cura Healthcare Service Test Automation 
 
-This repository contains an automation testing project where I've created a script using **Selenium**, **TestNG** and **Java** to test the [CURA Healthcare Service](https://katalon-demo-cura.herokuapp.com/), an appointment booking website for health checkups.
+This repository contains an automation testing project written in **Java** using **Selenium WebDriver** and **TestNG** to test the [CURA Healthcare Service](https://katalon-demo-cura.herokuapp.com/), an appointment booking website for health checkups.
+
+Project Structure<br>
+The project is structured as follows:
+
+```
+
+|-- src
+|   |-- main
+|   |   |-- java
+|   |   |   |-- pagesobjects
+|               |-- BookingPage.java
+|               |-- ConfirmationPage.java
+|               |-- ...
+|   |   |-- resources
+|   |
+|   |-- test
+|       |-- java
+|           |-- Test
+|               |-- AppointmentBookingTestCases.java
+|               |-- LoginTestCases.java
+|           |-- TestComponents
+|               |-- BaseTest.java
+|               |-- Listeners.java
+|   |-- reports
+|   |-- TestSuites
+|-- .gitignore
+|-- pom.xml
+|-- README.md
+
+```
+
+<br><br>
+## Prerequisites
+To run the automation tests in this project, you'll need to have the following software installed on your machine:
+
+- Java Development Kit (JDK)  version used: Java 21
+- Apache Maven
+- Selenium WebDriver
+- TestNG
+
+
 <br><br>
 I've created a total of 10 test cases which are as follows:
 
