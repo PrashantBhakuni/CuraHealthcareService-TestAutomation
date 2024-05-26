@@ -7,8 +7,8 @@ The project is structured as follows:
 
 ```
 
-|   |-- TestSuites
-|   |-- reports
+|-- TestSuites
+|-- reports
 |-- src
 |   |-- main
 |   |   |-- java
