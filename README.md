@@ -1,6 +1,6 @@
 # Cura Healthcare Service Test Automation 
 
-This repository contains an automation testing project where I've created a script using java to test the [CURA Healthcare Service](https://katalon-demo-cura.herokuapp.com/), an appointment booking website for health checkups.
+This repository contains an automation testing project where I've created a script using **Selenium**, **TestNG** and **Java** to test the [CURA Healthcare Service](https://katalon-demo-cura.herokuapp.com/), an appointment booking website for health checkups.
 <br><br>
 I've created a total of 10 test cases which are as follows:
 
