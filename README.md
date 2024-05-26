@@ -7,6 +7,8 @@ The project is structured as follows:
 
 ```
 
+|   |-- TestSuites
+|   |-- reports
 |-- src
 |   |-- main
 |   |   |-- java
@@ -24,11 +26,11 @@ The project is structured as follows:
 |           |-- TestComponents
 |               |-- BaseTest.java
 |               |-- Listeners.java
-|   |-- reports
-|   |-- TestSuites
+|-- .classpath.md
 |-- .gitignore
-|-- pom.xml
+|-- .project.md
 |-- README.md
+|-- pom.xml
 
 ```
 
