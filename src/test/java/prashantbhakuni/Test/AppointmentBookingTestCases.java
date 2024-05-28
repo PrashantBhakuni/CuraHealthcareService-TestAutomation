@@ -16,7 +16,7 @@ public class AppointmentBookingTestCases extends BaseTest {
 
 	@Test
 	public void bookingOne() {
-
+        //comments
 		// Happy Path Testing
 
 		String username = "John Doe";
