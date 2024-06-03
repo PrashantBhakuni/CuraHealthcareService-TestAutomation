@@ -9,18 +9,16 @@ import org.openqa.selenium.support.PageFactory;
 
 public class MenuBarPages {
 	
-	WebDriver driver;
 	public MenuBarPages(WebDriver driver)
 	{
-		this.driver = driver;
 		PageFactory.initElements(driver, this);
 	}
 	
 	@FindBy(css="a[href='history.php#history']")
-	WebElement historyBtn;
+	private WebElement historyBtn;
 	
 	@FindBy(css=".panel")
-	List<WebElement> appointmentRecords;
+	private List<WebElement> appointmentRecords;
 	
 	public void getHistoryPage()
 	{
@@ -33,19 +31,19 @@ public class MenuBarPages {
 	}
 	
 	@FindBy(xpath="//div[@class=' col-sm-offset-2 col-sm-8'][last()]/div/div[1]")
-	WebElement visitDate;
+	private WebElement visitDate;
 	
 	@FindBy(xpath="//div[@class=' col-sm-offset-2 col-sm-8'][last()]/div/div/div[2]/p")
-	WebElement facilityName;
+	private WebElement facilityName;
 	
 	@FindBy(xpath="//div[@class=' col-sm-offset-2 col-sm-8'][last()]/div/div/div[5]/p")
-	WebElement hospitalReadmission;
+	private WebElement hospitalReadmission;
 	
 	@FindBy(xpath="//div[@class=' col-sm-offset-2 col-sm-8'][last()]/div/div/div[8]/p")
-	WebElement programName;
+	private WebElement programName;
 	
 	@FindBy(xpath="//div[@class=' col-sm-offset-2 col-sm-8'][last()]/div/div/div[11]/p")
-	WebElement comment;
+	private WebElement comment;
 	
 	public String verifyFacilityName() {
 
@@ -71,7 +69,7 @@ public class MenuBarPages {
 	}
 
 	@FindBy(css="a[href='authenticate.php?logout']")
-	WebElement logoutBtn;
+	private WebElement logoutBtn;
 	
 	public void logOut()
 	{

@@ -1,6 +1,5 @@
 package prashantbhakuni.pageobjects;
 
-import java.util.List;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -8,14 +7,14 @@ import org.openqa.selenium.support.PageFactory;
 
 public class ConfirmationPage {
 
-	WebDriver driver;
+	private WebDriver driver;
 
 	public ConfirmationPage(WebDriver driver) {
 		this.driver = driver;
 		PageFactory.initElements(driver, this);
 	}
 
-	@FindBy(xpath = "//h2[text()='Appointment Confirmation']")
+	private @FindBy(xpath = "//h2[text()='Appointment Confirmation']")
 	WebElement confirmationMessage;
 
 	public String getConfirmationMessage() {
@@ -23,19 +22,19 @@ public class ConfirmationPage {
 	}
 
 	@FindBy(id = "facility")
-	WebElement facility;
+	private WebElement facility;
 
 	@FindBy(id = "hospital_readmission")
-	WebElement hospitalReadmission;
+	private WebElement hospitalReadmission;
 
 	@FindBy(id = "program")
-	WebElement program;
+	private WebElement program;
 
 	@FindBy(id = "visit_date")
-	WebElement visitDate;
+	private WebElement visitDate;
 
 	@FindBy(id = "comment")
-	WebElement comment;
+	private WebElement comment;
 
 	public String verifyFacilityName() {
 
@@ -61,10 +60,10 @@ public class ConfirmationPage {
 	}
 	
 	@FindBy(xpath="//a[normalize-space()='Go to Homepage']")
-	WebElement hompageBtn;
+	private WebElement hompageBtn;
 	
 	@FindBy(id="menu-toggle")
-	WebElement menuBar;
+	private WebElement menuBar;
 	
 	public MenuBarPages openMenu()
 	{

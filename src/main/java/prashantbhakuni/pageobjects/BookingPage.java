@@ -7,7 +7,7 @@ import org.openqa.selenium.support.PageFactory;
 
 public class BookingPage {
 
-	WebDriver driver;
+	private WebDriver driver;
 
 	public BookingPage(WebDriver driver) {
 		this.driver = driver;
@@ -15,26 +15,26 @@ public class BookingPage {
 	}
 
 	@FindBy(xpath = "//h2[text()='Make Appointment']")
-	WebElement bookingPageText;
+	private WebElement bookingPageText;
 
 	public String getBookingPageText() {
 		return bookingPageText.getText();
 	}
 
 	@FindBy(xpath = "//form/div/div/select")
-	WebElement facilitydropDown;
+	private WebElement facilitydropDown;
 
 	@FindBy(css = "option[value ='Tokyo CURA Healthcare Center']")
-	WebElement tokyoFacility;
+	private WebElement tokyoFacility;
 
 	@FindBy(css = "option[value = 'Hongkong CURA Healthcare Center']")
-	WebElement hongkongFacility;
+	private WebElement hongkongFacility;
 
 	@FindBy(css = "option[value = 'Seoul CURA Healthcare Center']")
-	WebElement seoulFacility;
+	private WebElement seoulFacility;
 
 	@FindBy(id = "chk_hospotal_readmission")
-	WebElement checkReadmission;
+	private WebElement checkReadmission;
 
 	public void selectFacility(String facilityName) {
 
@@ -56,22 +56,22 @@ public class BookingPage {
 	}
 
 	@FindBy(id = "radio_program_medicare")
-	WebElement medicareProgram;
+	private WebElement medicareProgram;
 
 	@FindBy(xpath = "//div[@class='form-group'][3]/div/label[1]")
-	WebElement medicareTextEle;
+	private WebElement medicareTextEle;
 
 	@FindBy(id = "radio_program_medicaid")
-	WebElement medicaidProgram;
+	private WebElement medicaidProgram;
 
 	@FindBy(xpath = "//div[@class='form-group'][3]/div/label[2]")
-	WebElement medicaidTextEle;
+	private WebElement medicaidTextEle;
 
 	@FindBy(id = "radio_program_none")
-	WebElement noneProgram;
+	private WebElement noneProgram;
 
 	@FindBy(xpath = "//div[@class='form-group'][3]/div/label[3]")
-	WebElement noneTextEle;
+	private WebElement noneTextEle;
 
 	public void selectProgram(String program) {
 
@@ -88,13 +88,13 @@ public class BookingPage {
 	}
 
 	@FindBy(id = "txt_visit_date")
-	WebElement datePicker;
+	private WebElement datePicker;
 
 	@FindBy(css = "div[class='datepicker-days'] th[class='datepicker-switch']")
-	WebElement selectYear;
+	private WebElement selectYear;
 
 	@FindBy(id = "txt_comment")
-	WebElement addComment;
+	private WebElement addComment;
 
 	public void selectAppointmentDay(String visitDate) {
 		datePicker.sendKeys(visitDate);
@@ -105,7 +105,7 @@ public class BookingPage {
 	}
 
 	@FindBy(id = "btn-book-appointment")
-	WebElement submitBtn;
+	private WebElement submitBtn;
 
 	public ConfirmationPage bookAppointment() {
 		submitBtn.click();

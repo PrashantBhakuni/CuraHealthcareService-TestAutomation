@@ -7,7 +7,7 @@ import org.openqa.selenium.support.PageFactory;
 
 public class LoginPage {
 	
-	WebDriver driver;
+	private WebDriver driver;
 	public LoginPage(WebDriver driver)
 	{
 		this.driver = driver;
@@ -15,16 +15,16 @@ public class LoginPage {
 	}
 	
 	@FindBy(css="#btn-make-appointment")
-	WebElement appointmentBtn;
+	private WebElement appointmentBtn;
 	
 	@FindBy(id = "txt-username")
-	WebElement username;
+	private WebElement username;
 	
 	@FindBy(id="txt-password")
-	WebElement userPassword;
+	private WebElement userPassword;
 	
 	@FindBy(xpath="//button[@type='submit']")
-	WebElement loginBtn;
+	private WebElement loginBtn;
 
 	public BookingPage loginWebsite(String userId, String password)
 	{
@@ -37,7 +37,7 @@ public class LoginPage {
 	}
 	
 	@FindBy(css=".text-danger")
-	WebElement errorMessage;
+	private WebElement errorMessage;
 	
 	public String getErrorMessage()
 	{
