@@ -2,119 +2,119 @@
 <testng-results ignored="0" total="11" passed="10" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-05-25T11:01:48 IST" name="AllTestCases" finished-at="2024-05-25T11:02:25 IST" duration-ms="36589">
+  <suite started-at="2024-06-03T19:23:45 IST" name="AllTestCases" finished-at="2024-06-03T19:24:23 IST" duration-ms="37603">
     <groups>
       <group name="Error">
         <method signature="AppointmentBookingTestCases.bookingSix()[pri:0, instance:prashantbhakuni.Test.AppointmentBookingTestCases@33fe57a9]" name="bookingSix" class="prashantbhakuni.Test.AppointmentBookingTestCases"/>
       </group> <!-- Error -->
     </groups>
-    <test started-at="2024-05-25T11:01:48 IST" name="Login" finished-at="2024-05-25T11:02:14 IST" duration-ms="25777">
+    <test started-at="2024-06-03T19:23:45 IST" name="Login" finished-at="2024-06-03T19:24:11 IST" duration-ms="26325">
       <class name="prashantbhakuni.Test.LoginTestCases">
-        <test-method is-config="true" signature="launchWebsite()[pri:0, instance:prashantbhakuni.Test.LoginTestCases@19e4fcac]" started-at="2024-05-25T11:01:48 IST" name="launchWebsite" finished-at="2024-05-25T11:01:53 IST" duration-ms="4126" status="PASS">
+        <test-method is-config="true" signature="launchWebsite()[pri:0, instance:prashantbhakuni.Test.LoginTestCases@19e4fcac]" started-at="2024-06-03T19:23:45 IST" name="launchWebsite" finished-at="2024-06-03T19:23:49 IST" duration-ms="4164" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchWebsite -->
-        <test-method signature="loginFive()[pri:0, instance:prashantbhakuni.Test.LoginTestCases@19e4fcac]" started-at="2024-05-25T11:01:53 IST" name="loginFive" finished-at="2024-05-25T11:01:54 IST" duration-ms="1224" status="PASS">
+        <test-method signature="loginFive()[pri:0, instance:prashantbhakuni.Test.LoginTestCases@19e4fcac]" started-at="2024-06-03T19:23:49 IST" name="loginFive" finished-at="2024-06-03T19:23:51 IST" duration-ms="1260" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginFive -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:prashantbhakuni.Test.LoginTestCases@19e4fcac]" started-at="2024-05-25T11:01:54 IST" name="tearDown" finished-at="2024-05-25T11:01:54 IST" duration-ms="85" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:prashantbhakuni.Test.LoginTestCases@19e4fcac]" started-at="2024-06-03T19:23:51 IST" name="tearDown" finished-at="2024-06-03T19:23:51 IST" duration-ms="74" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="launchWebsite()[pri:0, instance:prashantbhakuni.Test.LoginTestCases@19e4fcac]" started-at="2024-05-25T11:01:54 IST" name="launchWebsite" finished-at="2024-05-25T11:01:58 IST" duration-ms="3636" status="PASS">
+        <test-method is-config="true" signature="launchWebsite()[pri:0, instance:prashantbhakuni.Test.LoginTestCases@19e4fcac]" started-at="2024-06-03T19:23:51 IST" name="launchWebsite" finished-at="2024-06-03T19:23:55 IST" duration-ms="4788" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchWebsite -->
-        <test-method signature="loginFour()[pri:0, instance:prashantbhakuni.Test.LoginTestCases@19e4fcac]" started-at="2024-05-25T11:01:58 IST" name="loginFour" finished-at="2024-05-25T11:01:59 IST" duration-ms="1075" status="PASS">
+        <test-method signature="loginFour()[pri:0, instance:prashantbhakuni.Test.LoginTestCases@19e4fcac]" started-at="2024-06-03T19:23:55 IST" name="loginFour" finished-at="2024-06-03T19:23:56 IST" duration-ms="1013" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginFour -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:prashantbhakuni.Test.LoginTestCases@19e4fcac]" started-at="2024-05-25T11:01:59 IST" name="tearDown" finished-at="2024-05-25T11:01:59 IST" duration-ms="40" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:prashantbhakuni.Test.LoginTestCases@19e4fcac]" started-at="2024-06-03T19:23:56 IST" name="tearDown" finished-at="2024-06-03T19:23:57 IST" duration-ms="71" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="launchWebsite()[pri:0, instance:prashantbhakuni.Test.LoginTestCases@19e4fcac]" started-at="2024-05-25T11:01:59 IST" name="launchWebsite" finished-at="2024-05-25T11:02:03 IST" duration-ms="4220" status="PASS">
+        <test-method is-config="true" signature="launchWebsite()[pri:0, instance:prashantbhakuni.Test.LoginTestCases@19e4fcac]" started-at="2024-06-03T19:23:57 IST" name="launchWebsite" finished-at="2024-06-03T19:24:00 IST" duration-ms="3893" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchWebsite -->
-        <test-method signature="loginOne()[pri:0, instance:prashantbhakuni.Test.LoginTestCases@19e4fcac]" started-at="2024-05-25T11:02:03 IST" name="loginOne" finished-at="2024-05-25T11:02:04 IST" duration-ms="1168" status="PASS">
+        <test-method signature="loginOne()[pri:0, instance:prashantbhakuni.Test.LoginTestCases@19e4fcac]" started-at="2024-06-03T19:24:00 IST" name="loginOne" finished-at="2024-06-03T19:24:02 IST" duration-ms="1153" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginOne -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:prashantbhakuni.Test.LoginTestCases@19e4fcac]" started-at="2024-05-25T11:02:04 IST" name="tearDown" finished-at="2024-05-25T11:02:04 IST" duration-ms="68" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:prashantbhakuni.Test.LoginTestCases@19e4fcac]" started-at="2024-06-03T19:24:02 IST" name="tearDown" finished-at="2024-06-03T19:24:02 IST" duration-ms="29" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="launchWebsite()[pri:0, instance:prashantbhakuni.Test.LoginTestCases@19e4fcac]" started-at="2024-05-25T11:02:04 IST" name="launchWebsite" finished-at="2024-05-25T11:02:08 IST" duration-ms="3628" status="PASS">
+        <test-method is-config="true" signature="launchWebsite()[pri:0, instance:prashantbhakuni.Test.LoginTestCases@19e4fcac]" started-at="2024-06-03T19:24:02 IST" name="launchWebsite" finished-at="2024-06-03T19:24:05 IST" duration-ms="3615" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchWebsite -->
-        <test-method signature="loginThree()[pri:0, instance:prashantbhakuni.Test.LoginTestCases@19e4fcac]" started-at="2024-05-25T11:02:08 IST" name="loginThree" finished-at="2024-05-25T11:02:09 IST" duration-ms="1288" status="PASS">
+        <test-method signature="loginThree()[pri:0, instance:prashantbhakuni.Test.LoginTestCases@19e4fcac]" started-at="2024-06-03T19:24:05 IST" name="loginThree" finished-at="2024-06-03T19:24:07 IST" duration-ms="1354" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginThree -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:prashantbhakuni.Test.LoginTestCases@19e4fcac]" started-at="2024-05-25T11:02:09 IST" name="tearDown" finished-at="2024-05-25T11:02:09 IST" duration-ms="82" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:prashantbhakuni.Test.LoginTestCases@19e4fcac]" started-at="2024-06-03T19:24:07 IST" name="tearDown" finished-at="2024-06-03T19:24:07 IST" duration-ms="33" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="launchWebsite()[pri:0, instance:prashantbhakuni.Test.LoginTestCases@19e4fcac]" started-at="2024-05-25T11:02:09 IST" name="launchWebsite" finished-at="2024-05-25T11:02:13 IST" duration-ms="3758" status="PASS">
+        <test-method is-config="true" signature="launchWebsite()[pri:0, instance:prashantbhakuni.Test.LoginTestCases@19e4fcac]" started-at="2024-06-03T19:24:07 IST" name="launchWebsite" finished-at="2024-06-03T19:24:10 IST" duration-ms="3625" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchWebsite -->
-        <test-method signature="loginTwo()[pri:0, instance:prashantbhakuni.Test.LoginTestCases@19e4fcac]" started-at="2024-05-25T11:02:13 IST" name="loginTwo" finished-at="2024-05-25T11:02:14 IST" duration-ms="1238" status="PASS">
+        <test-method signature="loginTwo()[pri:0, instance:prashantbhakuni.Test.LoginTestCases@19e4fcac]" started-at="2024-06-03T19:24:10 IST" name="loginTwo" finished-at="2024-06-03T19:24:11 IST" duration-ms="1133" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTwo -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:prashantbhakuni.Test.LoginTestCases@19e4fcac]" started-at="2024-05-25T11:02:14 IST" name="tearDown" finished-at="2024-05-25T11:02:14 IST" duration-ms="73" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:prashantbhakuni.Test.LoginTestCases@19e4fcac]" started-at="2024-06-03T19:24:11 IST" name="tearDown" finished-at="2024-06-03T19:24:11 IST" duration-ms="69" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- prashantbhakuni.Test.LoginTestCases -->
     </test> <!-- Login -->
-    <test started-at="2024-05-25T11:01:48 IST" name="Booking" finished-at="2024-05-25T11:02:25 IST" duration-ms="36589">
+    <test started-at="2024-06-03T19:23:45 IST" name="Booking" finished-at="2024-06-03T19:24:23 IST" duration-ms="37603">
       <class name="prashantbhakuni.Test.AppointmentBookingTestCases">
-        <test-method is-config="true" signature="launchWebsite()[pri:0, instance:prashantbhakuni.Test.AppointmentBookingTestCases@33fe57a9]" started-at="2024-05-25T11:01:48 IST" name="launchWebsite" finished-at="2024-05-25T11:01:53 IST" duration-ms="4140" status="PASS">
+        <test-method is-config="true" signature="launchWebsite()[pri:0, instance:prashantbhakuni.Test.AppointmentBookingTestCases@33fe57a9]" started-at="2024-06-03T19:23:45 IST" name="launchWebsite" finished-at="2024-06-03T19:23:49 IST" duration-ms="4269" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchWebsite -->
-        <test-method signature="bookingFive()[pri:0, instance:prashantbhakuni.Test.AppointmentBookingTestCases@33fe57a9]" started-at="2024-05-25T11:01:53 IST" name="bookingFive" finished-at="2024-05-25T11:01:56 IST" duration-ms="3768" status="PASS">
+        <test-method signature="bookingFive()[pri:0, instance:prashantbhakuni.Test.AppointmentBookingTestCases@33fe57a9]" started-at="2024-06-03T19:23:49 IST" name="bookingFive" finished-at="2024-06-03T19:23:53 IST" duration-ms="3783" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bookingFive -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:prashantbhakuni.Test.AppointmentBookingTestCases@33fe57a9]" started-at="2024-05-25T11:01:56 IST" name="tearDown" finished-at="2024-05-25T11:01:56 IST" duration-ms="71" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:prashantbhakuni.Test.AppointmentBookingTestCases@33fe57a9]" started-at="2024-06-03T19:23:53 IST" name="tearDown" finished-at="2024-06-03T19:23:53 IST" duration-ms="67" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="launchWebsite()[pri:0, instance:prashantbhakuni.Test.AppointmentBookingTestCases@33fe57a9]" started-at="2024-05-25T11:01:56 IST" name="launchWebsite" finished-at="2024-05-25T11:02:00 IST" duration-ms="3645" status="PASS">
+        <test-method is-config="true" signature="launchWebsite()[pri:0, instance:prashantbhakuni.Test.AppointmentBookingTestCases@33fe57a9]" started-at="2024-06-03T19:23:53 IST" name="launchWebsite" finished-at="2024-06-03T19:23:57 IST" duration-ms="3601" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchWebsite -->
-        <test-method signature="bookingFour()[pri:0, instance:prashantbhakuni.Test.AppointmentBookingTestCases@33fe57a9]" started-at="2024-05-25T11:02:00 IST" name="bookingFour" finished-at="2024-05-25T11:02:03 IST" duration-ms="2817" status="PASS">
+        <test-method signature="bookingFour()[pri:0, instance:prashantbhakuni.Test.AppointmentBookingTestCases@33fe57a9]" started-at="2024-06-03T19:23:57 IST" name="bookingFour" finished-at="2024-06-03T19:24:00 IST" duration-ms="2940" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bookingFour -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:prashantbhakuni.Test.AppointmentBookingTestCases@33fe57a9]" started-at="2024-05-25T11:02:03 IST" name="tearDown" finished-at="2024-05-25T11:02:03 IST" duration-ms="77" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:prashantbhakuni.Test.AppointmentBookingTestCases@33fe57a9]" started-at="2024-06-03T19:24:00 IST" name="tearDown" finished-at="2024-06-03T19:24:00 IST" duration-ms="72" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="launchWebsite()[pri:0, instance:prashantbhakuni.Test.AppointmentBookingTestCases@33fe57a9]" started-at="2024-05-25T11:02:03 IST" name="launchWebsite" finished-at="2024-05-25T11:02:07 IST" duration-ms="3658" status="PASS">
+        <test-method is-config="true" signature="launchWebsite()[pri:0, instance:prashantbhakuni.Test.AppointmentBookingTestCases@33fe57a9]" started-at="2024-06-03T19:24:00 IST" name="launchWebsite" finished-at="2024-06-03T19:24:03 IST" duration-ms="3608" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchWebsite -->
-        <test-method signature="bookingOne()[pri:0, instance:prashantbhakuni.Test.AppointmentBookingTestCases@33fe57a9]" started-at="2024-05-25T11:02:07 IST" name="bookingOne" finished-at="2024-05-25T11:02:08 IST" duration-ms="1760" status="PASS">
+        <test-method signature="bookingOne()[pri:0, instance:prashantbhakuni.Test.AppointmentBookingTestCases@33fe57a9]" started-at="2024-06-03T19:24:03 IST" name="bookingOne" finished-at="2024-06-03T19:24:05 IST" duration-ms="1650" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bookingOne -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:prashantbhakuni.Test.AppointmentBookingTestCases@33fe57a9]" started-at="2024-05-25T11:02:08 IST" name="tearDown" finished-at="2024-05-25T11:02:08 IST" duration-ms="71" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:prashantbhakuni.Test.AppointmentBookingTestCases@33fe57a9]" started-at="2024-06-03T19:24:05 IST" name="tearDown" finished-at="2024-06-03T19:24:05 IST" duration-ms="73" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="launchWebsite()[pri:0, instance:prashantbhakuni.Test.AppointmentBookingTestCases@33fe57a9]" started-at="2024-05-25T11:02:08 IST" name="launchWebsite" finished-at="2024-05-25T11:02:12 IST" duration-ms="3570" status="PASS">
+        <test-method is-config="true" signature="launchWebsite()[pri:0, instance:prashantbhakuni.Test.AppointmentBookingTestCases@33fe57a9]" started-at="2024-06-03T19:24:05 IST" name="launchWebsite" finished-at="2024-06-03T19:24:09 IST" duration-ms="3925" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchWebsite -->
-        <test-method signature="bookingSix()[pri:0, instance:prashantbhakuni.Test.AppointmentBookingTestCases@33fe57a9]" started-at="2024-05-25T11:02:12 IST" name="bookingSix" finished-at="2024-05-25T11:02:14 IST" duration-ms="1667" status="FAIL">
+        <test-method signature="bookingSix()[pri:0, instance:prashantbhakuni.Test.AppointmentBookingTestCases@33fe57a9]" started-at="2024-06-03T19:24:09 IST" name="bookingSix" finished-at="2024-06-03T19:24:11 IST" duration-ms="1763" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [Please select a valid date] but found [Appointment Confirmation]]]>
@@ -156,31 +156,31 @@ at java.base/java.lang.Thread.run(Thread.java:840)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bookingSix -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:prashantbhakuni.Test.AppointmentBookingTestCases@33fe57a9]" started-at="2024-05-25T11:02:14 IST" name="tearDown" finished-at="2024-05-25T11:02:14 IST" duration-ms="72" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:prashantbhakuni.Test.AppointmentBookingTestCases@33fe57a9]" started-at="2024-06-03T19:24:11 IST" name="tearDown" finished-at="2024-06-03T19:24:11 IST" duration-ms="79" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="launchWebsite()[pri:0, instance:prashantbhakuni.Test.AppointmentBookingTestCases@33fe57a9]" started-at="2024-05-25T11:02:14 IST" name="launchWebsite" finished-at="2024-05-25T11:02:18 IST" duration-ms="3679" status="PASS">
+        <test-method is-config="true" signature="launchWebsite()[pri:0, instance:prashantbhakuni.Test.AppointmentBookingTestCases@33fe57a9]" started-at="2024-06-03T19:24:11 IST" name="launchWebsite" finished-at="2024-06-03T19:24:15 IST" duration-ms="4103" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchWebsite -->
-        <test-method signature="bookingThree()[pri:0, instance:prashantbhakuni.Test.AppointmentBookingTestCases@33fe57a9]" started-at="2024-05-25T11:02:18 IST" name="bookingThree" finished-at="2024-05-25T11:02:19 IST" duration-ms="1728" status="PASS">
+        <test-method signature="bookingThree()[pri:0, instance:prashantbhakuni.Test.AppointmentBookingTestCases@33fe57a9]" started-at="2024-06-03T19:24:15 IST" name="bookingThree" finished-at="2024-06-03T19:24:17 IST" duration-ms="1826" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bookingThree -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:prashantbhakuni.Test.AppointmentBookingTestCases@33fe57a9]" started-at="2024-05-25T11:02:19 IST" name="tearDown" finished-at="2024-05-25T11:02:19 IST" duration-ms="74" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:prashantbhakuni.Test.AppointmentBookingTestCases@33fe57a9]" started-at="2024-06-03T19:24:17 IST" name="tearDown" finished-at="2024-06-03T19:24:17 IST" duration-ms="32" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="launchWebsite()[pri:0, instance:prashantbhakuni.Test.AppointmentBookingTestCases@33fe57a9]" started-at="2024-05-25T11:02:19 IST" name="launchWebsite" finished-at="2024-05-25T11:02:23 IST" duration-ms="3571" status="PASS">
+        <test-method is-config="true" signature="launchWebsite()[pri:0, instance:prashantbhakuni.Test.AppointmentBookingTestCases@33fe57a9]" started-at="2024-06-03T19:24:17 IST" name="launchWebsite" finished-at="2024-06-03T19:24:21 IST" duration-ms="3750" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchWebsite -->
-        <test-method signature="bookingTwo()[pri:0, instance:prashantbhakuni.Test.AppointmentBookingTestCases@33fe57a9]" started-at="2024-05-25T11:02:23 IST" name="bookingTwo" finished-at="2024-05-25T11:02:25 IST" duration-ms="1948" status="PASS">
+        <test-method signature="bookingTwo()[pri:0, instance:prashantbhakuni.Test.AppointmentBookingTestCases@33fe57a9]" started-at="2024-06-03T19:24:21 IST" name="bookingTwo" finished-at="2024-06-03T19:24:23 IST" duration-ms="1860" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bookingTwo -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:prashantbhakuni.Test.AppointmentBookingTestCases@33fe57a9]" started-at="2024-05-25T11:02:25 IST" name="tearDown" finished-at="2024-05-25T11:02:25 IST" duration-ms="81" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:prashantbhakuni.Test.AppointmentBookingTestCases@33fe57a9]" started-at="2024-06-03T19:24:23 IST" name="tearDown" finished-at="2024-06-03T19:24:23 IST" duration-ms="33" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
