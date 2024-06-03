@@ -26,9 +26,9 @@ The project is structured as follows:
 |           |-- TestComponents
 |               |-- BaseTest.java
 |               |-- Listeners.java
-|-- .classpath.md
+|-- .classpath
 |-- .gitignore
-|-- .project.md
+|-- .project
 |-- README.md
 |-- pom.xml
 
