@@ -16,7 +16,7 @@ The project is structured as follows:
 |               |-- BookingPage.java
 |               |-- ConfirmationPage.java
 |               |-- ...
-|   |   |-- resources
+|   |       |-- resources
 |   |
 |   |-- test
 |       |-- java
